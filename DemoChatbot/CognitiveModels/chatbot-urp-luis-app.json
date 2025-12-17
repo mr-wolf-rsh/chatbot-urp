@@ -1,0 +1,742 @@
+{
+  "luis_schema_version": "7.0.0",
+  "intents": [
+    {
+      "name": "Admission",
+      "features": []
+    },
+    {
+      "name": "Greeting",
+      "features": []
+    },
+    {
+      "name": "MainMenu",
+      "features": []
+    },
+    {
+      "name": "None",
+      "features": []
+    },
+    {
+      "name": "PostgraduateCareer",
+      "features": []
+    },
+    {
+      "name": "ProfessionalStudiesWorkExperience",
+      "features": []
+    },
+    {
+      "name": "ProgramsSpecializations",
+      "features": []
+    },
+    {
+      "name": "SecondSpecialty",
+      "features": []
+    },
+    {
+      "name": "StudentServices",
+      "features": []
+    },
+    {
+      "name": "UndergraduateCareer",
+      "features": []
+    },
+    {
+      "name": "YourCreator",
+      "features": []
+    }
+  ],
+  "entities": [],
+  "hierarchicals": [],
+  "composites": [],
+  "closedLists": [],
+  "prebuiltEntities": [],
+  "utterances": [
+    {
+      "text": "!",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "¡",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "¡!",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "¿",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "¿?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "¿qué tal?",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "admision",
+      "intent": "Admission",
+      "entities": []
+    },
+    {
+      "text": "admisión",
+      "intent": "Admission",
+      "entities": []
+    },
+    {
+      "text": "admission",
+      "intent": "Admission",
+      "entities": []
+    },
+    {
+      "text": "bonito día",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "botcito",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "buenas",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "buenas noches",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "buenas tardes",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "buenos días",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "carreras",
+      "intent": "UndergraduateCareer",
+      "entities": []
+    },
+    {
+      "text": "carreras de pregrado",
+      "intent": "UndergraduateCareer",
+      "entities": []
+    },
+    {
+      "text": "centro preuniversitario",
+      "intent": "Admission",
+      "entities": []
+    },
+    {
+      "text": "como es la nuez",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "como es la u",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "cómo es su pregrado",
+      "intent": "UndergraduateCareer",
+      "entities": []
+    },
+    {
+      "text": "como estas",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "cómo estás?",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "cómo funcionas?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "como me llamo",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "continuacion de estudios",
+      "intent": "Admission",
+      "entities": []
+    },
+    {
+      "text": "creador",
+      "intent": "YourCreator",
+      "entities": []
+    },
+    {
+      "text": "dame información de servicios",
+      "intent": "StudentServices",
+      "entities": []
+    },
+    {
+      "text": "dame información sobre pregrado",
+      "intent": "UndergraduateCareer",
+      "entities": []
+    },
+    {
+      "text": "desarrollador",
+      "intent": "YourCreator",
+      "entities": []
+    },
+    {
+      "text": "deseo conocer sobre segunda especialidad",
+      "intent": "SecondSpecialty",
+      "entities": []
+    },
+    {
+      "text": "deseo informacion sobre epel",
+      "intent": "ProfessionalStudiesWorkExperience",
+      "entities": []
+    },
+    {
+      "text": "diseñador",
+      "intent": "YourCreator",
+      "entities": []
+    },
+    {
+      "text": "epel",
+      "intent": "ProfessionalStudiesWorkExperience",
+      "entities": []
+    },
+    {
+      "text": "escuela de postgrado",
+      "intent": "PostgraduateCareer",
+      "entities": []
+    },
+    {
+      "text": "escuela de pregrado",
+      "intent": "UndergraduateCareer",
+      "entities": []
+    },
+    {
+      "text": "especializaciones",
+      "intent": "ProgramsSpecializations",
+      "entities": []
+    },
+    {
+      "text": "estudios profesionales por experiencia laboral",
+      "intent": "ProfessionalStudiesWorkExperience",
+      "entities": []
+    },
+    {
+      "text": "facultades",
+      "intent": "UndergraduateCareer",
+      "entities": []
+    },
+    {
+      "text": "habla",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hola",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hola, ¿qué tal?",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hola, quiero conocer sobre las carreras de pregrado",
+      "intent": "UndergraduateCareer",
+      "entities": []
+    },
+    {
+      "text": "hola, quiero conocer sobre programas y especializaciones",
+      "intent": "ProgramsSpecializations",
+      "entities": []
+    },
+    {
+      "text": "hola, quiero saber sobre los servicios al estudiante",
+      "intent": "StudentServices",
+      "entities": []
+    },
+    {
+      "text": "info de admision",
+      "intent": "Admission",
+      "entities": []
+    },
+    {
+      "text": "info de especializaciones",
+      "intent": "ProgramsSpecializations",
+      "entities": []
+    },
+    {
+      "text": "info de estudios profesionales por experiencia laboral",
+      "intent": "ProfessionalStudiesWorkExperience",
+      "entities": []
+    },
+    {
+      "text": "info de posgrado",
+      "intent": "PostgraduateCareer",
+      "entities": []
+    },
+    {
+      "text": "info de postgrado",
+      "intent": "PostgraduateCareer",
+      "entities": []
+    },
+    {
+      "text": "info de programas",
+      "intent": "ProgramsSpecializations",
+      "entities": []
+    },
+    {
+      "text": "info de segunda especialidad",
+      "intent": "SecondSpecialty",
+      "entities": []
+    },
+    {
+      "text": "info de servicios",
+      "intent": "StudentServices",
+      "entities": []
+    },
+    {
+      "text": "info sobre epel",
+      "intent": "ProfessionalStudiesWorkExperience",
+      "entities": []
+    },
+    {
+      "text": "info sobre pregrado",
+      "intent": "UndergraduateCareer",
+      "entities": []
+    },
+    {
+      "text": "info sobre proceso de admisión",
+      "intent": "Admission",
+      "entities": []
+    },
+    {
+      "text": "info sobre segunda especialidad",
+      "intent": "SecondSpecialty",
+      "entities": []
+    },
+    {
+      "text": "información de epel",
+      "intent": "ProfessionalStudiesWorkExperience",
+      "entities": []
+    },
+    {
+      "text": "información de la escuela de posgrado",
+      "intent": "PostgraduateCareer",
+      "entities": []
+    },
+    {
+      "text": "información de programas y especializaciones",
+      "intent": "ProgramsSpecializations",
+      "entities": []
+    },
+    {
+      "text": "información de segunda especialidad",
+      "intent": "SecondSpecialty",
+      "entities": []
+    },
+    {
+      "text": "información de servicios estudiantiles",
+      "intent": "StudentServices",
+      "entities": []
+    },
+    {
+      "text": "informacion sobre admision",
+      "intent": "Admission",
+      "entities": []
+    },
+    {
+      "text": "información sobre carreras",
+      "intent": "UndergraduateCareer",
+      "entities": []
+    },
+    {
+      "text": "información sobre facultades",
+      "intent": "UndergraduateCareer",
+      "entities": []
+    },
+    {
+      "text": "información sobre programas y especializaciones",
+      "intent": "ProgramsSpecializations",
+      "entities": []
+    },
+    {
+      "text": "informacion sobre segunda especialidad",
+      "intent": "SecondSpecialty",
+      "entities": []
+    },
+    {
+      "text": "llevame al menu",
+      "intent": "MainMenu",
+      "entities": []
+    },
+    {
+      "text": "mainmenu",
+      "intent": "MainMenu",
+      "entities": []
+    },
+    {
+      "text": "menu",
+      "intent": "MainMenu",
+      "entities": []
+    },
+    {
+      "text": "menú",
+      "intent": "MainMenu",
+      "entities": []
+    },
+    {
+      "text": "menu principal",
+      "intent": "MainMenu",
+      "entities": []
+    },
+    {
+      "text": "menú principal",
+      "intent": "MainMenu",
+      "entities": []
+    },
+    {
+      "text": "modalidad de segunda especialidad",
+      "intent": "SecondSpecialty",
+      "entities": []
+    },
+    {
+      "text": "modalidades de ingreso",
+      "intent": "Admission",
+      "entities": []
+    },
+    {
+      "text": "nada",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "necesito info de segunda especialidad, por favor",
+      "intent": "SecondSpecialty",
+      "entities": []
+    },
+    {
+      "text": "necesito información sobre epel, por favor",
+      "intent": "ProfessionalStudiesWorkExperience",
+      "entities": []
+    },
+    {
+      "text": "none",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "oficina central de admision",
+      "intent": "Admission",
+      "entities": []
+    },
+    {
+      "text": "oye tu",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "para que sirves",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "por favor, quiero conocer el proceso de admision",
+      "intent": "Admission",
+      "entities": []
+    },
+    {
+      "text": "por favor, quiero info sobre los servicios estudiantiles",
+      "intent": "StudentServices",
+      "entities": []
+    },
+    {
+      "text": "por favor, quiero saber de postgrado",
+      "intent": "PostgraduateCareer",
+      "entities": []
+    },
+    {
+      "text": "posgrado",
+      "intent": "PostgraduateCareer",
+      "entities": []
+    },
+    {
+      "text": "postgrado",
+      "intent": "PostgraduateCareer",
+      "entities": []
+    },
+    {
+      "text": "postgraduatecareer",
+      "intent": "PostgraduateCareer",
+      "entities": []
+    },
+    {
+      "text": "pregrado",
+      "intent": "UndergraduateCareer",
+      "entities": []
+    },
+    {
+      "text": "principal",
+      "intent": "MainMenu",
+      "entities": []
+    },
+    {
+      "text": "proceso de admision",
+      "intent": "Admission",
+      "entities": []
+    },
+    {
+      "text": "professionalstudiesworkexperience",
+      "intent": "ProfessionalStudiesWorkExperience",
+      "entities": []
+    },
+    {
+      "text": "programas",
+      "intent": "ProgramsSpecializations",
+      "entities": []
+    },
+    {
+      "text": "programas y especializaciones",
+      "intent": "ProgramsSpecializations",
+      "entities": []
+    },
+    {
+      "text": "programsspecializations",
+      "intent": "ProgramsSpecializations",
+      "entities": []
+    },
+    {
+      "text": "qué facultades tiene la universidad",
+      "intent": "UndergraduateCareer",
+      "entities": []
+    },
+    {
+      "text": "que haces?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "qué otras opciones tienes",
+      "intent": "MainMenu",
+      "entities": []
+    },
+    {
+      "text": "que puedes hacer",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "que sabes hacer",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "quién fue el que te desarrolló?",
+      "intent": "YourCreator",
+      "entities": []
+    },
+    {
+      "text": "quién te creó?",
+      "intent": "YourCreator",
+      "entities": []
+    },
+    {
+      "text": "quién te desarrolló?",
+      "intent": "YourCreator",
+      "entities": []
+    },
+    {
+      "text": "quién te diseñó?",
+      "intent": "YourCreator",
+      "entities": []
+    },
+    {
+      "text": "quien te invento?",
+      "intent": "YourCreator",
+      "entities": []
+    },
+    {
+      "text": "quiero conocer las facultades",
+      "intent": "UndergraduateCareer",
+      "entities": []
+    },
+    {
+      "text": "quiero conocer sobre servicios al estudiante",
+      "intent": "StudentServices",
+      "entities": []
+    },
+    {
+      "text": "quiero info de servicios universitarios",
+      "intent": "StudentServices",
+      "entities": []
+    },
+    {
+      "text": "quiero información de posgrado",
+      "intent": "PostgraduateCareer",
+      "entities": []
+    },
+    {
+      "text": "quiero información de postgrado",
+      "intent": "PostgraduateCareer",
+      "entities": []
+    },
+    {
+      "text": "quiero informacion sobre estudios profesionales por experiencia laboral",
+      "intent": "ProfessionalStudiesWorkExperience",
+      "entities": []
+    },
+    {
+      "text": "quiero información sobre facultades",
+      "intent": "UndergraduateCareer",
+      "entities": []
+    },
+    {
+      "text": "quiero información sobre segunda especialidad",
+      "intent": "SecondSpecialty",
+      "entities": []
+    },
+    {
+      "text": "quiero saber de carreras",
+      "intent": "UndergraduateCareer",
+      "entities": []
+    },
+    {
+      "text": "quiero saber de especializaciones",
+      "intent": "ProgramsSpecializations",
+      "entities": []
+    },
+    {
+      "text": "quiero saber de posgrado",
+      "intent": "PostgraduateCareer",
+      "entities": []
+    },
+    {
+      "text": "quiero saber de programas",
+      "intent": "ProgramsSpecializations",
+      "entities": []
+    },
+    {
+      "text": "quiero saber sobre la modalidad epel",
+      "intent": "ProfessionalStudiesWorkExperience",
+      "entities": []
+    },
+    {
+      "text": "quiero ver el menú principal",
+      "intent": "MainMenu",
+      "entities": []
+    },
+    {
+      "text": "quiero volver al menú principal",
+      "intent": "MainMenu",
+      "entities": []
+    },
+    {
+      "text": "regresar al menu",
+      "intent": "MainMenu",
+      "entities": []
+    },
+    {
+      "text": "saludos",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "secondspecialty",
+      "intent": "SecondSpecialty",
+      "entities": []
+    },
+    {
+      "text": "segunda especialidad",
+      "intent": "SecondSpecialty",
+      "entities": []
+    },
+    {
+      "text": "servicios al estudiante",
+      "intent": "StudentServices",
+      "entities": []
+    },
+    {
+      "text": "servicios de apoyo al estudiante",
+      "intent": "StudentServices",
+      "entities": []
+    },
+    {
+      "text": "servicios estudiantiles",
+      "intent": "StudentServices",
+      "entities": []
+    },
+    {
+      "text": "servicios estudiantiles de apoyo",
+      "intent": "StudentServices",
+      "entities": []
+    },
+    {
+      "text": "servicios universitarios",
+      "intent": "StudentServices",
+      "entities": []
+    },
+    {
+      "text": "studentservices",
+      "intent": "StudentServices",
+      "entities": []
+    },
+    {
+      "text": "tienes info sobre admision?",
+      "intent": "Admission",
+      "entities": []
+    },
+    {
+      "text": "tu creador",
+      "intent": "YourCreator",
+      "entities": []
+    },
+    {
+      "text": "tu desarrollador",
+      "intent": "YourCreator",
+      "entities": []
+    },
+    {
+      "text": "undergraduatecareer",
+      "intent": "UndergraduateCareer",
+      "entities": []
+    }
+  ],
+  "versionId": "0.1",
+  "name": "chatbot-urp-luis-app",
+  "desc": "",
+  "culture": "es-mx",
+  "tokenizerVersion": "1.0.0",
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "phraselists": [],
+  "regex_features": [],
+  "patterns": [],
+  "settings": []
+}
