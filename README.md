@@ -2,7 +2,7 @@
 
 Conversational chatbot built as my undergraduate thesis at Universidad Ricardo Palma (URP, Lima). It guides users through a menu of dialogs to answer questions about admissions, undergraduate and postgraduate programs, student services, and contact information.
 
-**Thesis document (Spanish):** [Repositorio URP](https://repositorio.urp.edu.pe/server/api/core/bitstreams/35b71c7b-c119-4ca7-bd80-6a723e4ac4a5/content)
+**Thesis document (Spanish):** [Repositorio URP](https://repositorio.urp.edu.pe/entities/publication/3c6c2094-ed2d-44bb-a7a1-e93c6086f4f3)
 
 ## Stack
 
